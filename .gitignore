@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 下面两个是运行后自动生成的产物，不该进 Git
+data/prices.csv
+result/
+
+.DS_Store
