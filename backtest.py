@@ -11,7 +11,7 @@ from collections import defaultdict
 
 LOOKBACK = 60            # 动量观察窗口（交易日）
 TOP_K = 2                # 每期持有几只
-REBALANCE = 20           # 每隔多少个交易日调仓一次
+REBALANCE = 10           # 每隔多少个交易日调仓一次
 INIT_CASH = 100000.0     # 初始资金
 PRICE_FILE = os.path.join("data", "prices.csv")
 OUT_FILE = os.path.join("result", "nav.csv")
